@@ -14,9 +14,5 @@
     header .song_side::before {
     background-position-x: 370px;
     }
-    header .menu_side, .song_side {
-    height: auto;
-    
-}
 
 }
