@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px){
+    header{
+        width:95%
+    }
+    header .menu_side, .song_side{
+        width:30%;
+    }
+    header .song_side{
+        width:70%;
+    }
+    header .song_side content{
+        height:18%;
+    }       
+    header .song_side::before {
+    background-position-x: 370px;
+    }
+    header .menu_side, .song_side {
+    height: auto;
+    
+}
+
+}
