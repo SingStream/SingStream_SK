@@ -545,11 +545,11 @@ header .song_side nav .user img {
 }
 
 header .song_side .content {
-  width: 90%;
-  height: 30%;
-  /* border:1px solid #fff; */
-  margin: auto;
-  padding-top: 20px;
+    width: 50%;
+    height: 180px;
+    /* border: 1px solid #fff; */
+    margin-left: 45px;
+    padding-top: 20px;
 }
 
 header .song_side .content h1 {
