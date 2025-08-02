@@ -230,8 +230,15 @@ loadSong(index);highlightCurrent();
 
 // Play button active
 
-document.getElementById("mainPlay").addEventListener("click", () => {
-  playSong();         // ✅ gaana bajana shuru
-  highlightCurrent(); // ✅ playlist me highlight bhi ho
+const mainPlay = document.getElementById("mainPlay");
+
+mainPlay.addEventListener("click", () => {
+  if (music.paused || music.currentTime <= 0) {
+    playSong();
+    mainPlay.textContent = "PAUSE";  // 🔁 Change text to PAUSE
+  } else {
+    pauseSong();
+    mainPlay.textContent = "PLAY";   // 🔁 Change back to PLAY
+  }
 });
 
