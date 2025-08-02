@@ -228,3 +228,10 @@ searchInput.addEventListener("keydown", e => {
 // -------------------- 8. INIT --------------------
 loadSong(index);highlightCurrent();
 
+// Play button active
+
+document.getElementById("mainPlay").addEventListener("click", () => {
+  playSong();         // ✅ gaana bajana shuru
+  highlightCurrent(); // ✅ playlist me highlight bhi ho
+});
+
