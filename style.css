@@ -444,11 +444,11 @@ header .song_side::before {
   width: 867px;
   height: 300px;
   /* border: 1px solid #fff; */
-  background: url(image/sanjeev_2.png);
+  background: url(image/Arijit-bg.png);
   background-repeat: no-repeat;
   background-position-x: 500px;
-  background-position-y: -10px;
-  background-size: 275px;
+  background-position-y: 20px;
+  background-size: 240px;
   z-index: -1;
 
 }
@@ -545,11 +545,11 @@ header .song_side nav .user img {
 }
 
 header .song_side .content {
-    width: 50%;
-    height: 180px;
-    /* border: 1px solid #fff; */
-    margin-left: 45px;
-    padding-top: 20px;
+  width: 50%;
+  height: 30%;
+  /* border:1px solid #fff; */
+  margin-left: 35px;
+  padding-top: 20px;
 }
 
 header .song_side .content h1 {
@@ -559,7 +559,7 @@ header .song_side .content h1 {
 
 header .song_side .content p {
   font-size: 11px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #4c5262;
   margin: 5px;
 }
@@ -776,3 +776,8 @@ header .song_side .popular_artists .item li img {
   display: none;
 
 }
+
+
+
+
+
